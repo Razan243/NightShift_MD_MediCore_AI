@@ -92,3 +92,14 @@ cd NightShift_MD_MediCore_AI
 
 ```bash
 python -m venv .venv
+### 3. Activate the virtual environment
+
+#### Windows
+
+```bash
+.venv\Scripts\activate
+
+pip install -r backend/requirements.txt
+
+uvicorn backend.main:app --reload
+http://127.0.0.1:8000
