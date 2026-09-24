@@ -1,43 +1,94 @@
-# NightShift MD / MediCore AI
+# 🩺 NightShift MD — MediCore AI
 
-A frontend + FastAPI version of the Emergency Triage Multi-Agent AI project from `Final.ipynb`.
+> An AI-powered clinical decision-support prototype for analyzing medical reports and generating structured emergency triage insights.
 
-## Project flow
+## 📌 Overview
 
-PDF upload → Patient Data Agent → Medical Records Agent → History Agent → Triage Agent → Summary Agent → Final Report
+**NightShift MD / MediCore AI** is a multi-agent AI project designed to process medical reports and transform unstructured clinical information into a structured assessment.
 
-## Stack
+The system analyzes an uploaded PDF medical report through a sequence of specialized agents that extract patient information, medical records, patient history, and emergency triage findings.
 
-- Frontend: HTML/CSS/JavaScript
-- Backend: FastAPI
-- PDF extraction: PyPDF2
-- Local LLM: `google/flan-t5-small`
-- Orchestration: LangGraph
+The project was developed as a practical implementation of a **Multi-Agent AI workflow** using Python, LangGraph, FastAPI, and a local language model.
 
-## Run on Windows
+---
 
-1. Open a terminal in this folder.
-2. Create/activate a virtual environment:
+## 🎯 Project Objective
+
+The main objective of NightShift MD is to demonstrate how AI agents can assist in organizing and analyzing clinical information.
+
+The system follows this workflow:
+
+```text
+Medical PDF
+     ↓
+Patient Data Agent
+     ↓
+Medical Records Agent
+     ↓
+History Agent
+     ↓
+Triage Agent
+     ↓
+Summary Agent
+     ↓
+Final Clinical Report
+
+---
+
+## 🛠️ Tech Stack
+
+### Backend
+
+- Python
+- FastAPI
+- LangGraph
+- PyPDF2
+- Transformers
+- google/flan-t5-small
+
+### Frontend
+
+- HTML5
+- CSS3
+- JavaScript
+- PDF.js
+
+### AI & Workflow
+
+- Multi-Agent AI architecture
+- LangGraph workflow orchestration
+- Local language model inference
+- Rule-based clinical information extraction
+- Structured final report generation
+
+---
+
+## 📂 Project Structure
+
+```text
+NightShift_MD_MediCore_AI/
+│
+├── backend/
+│   ├── main.py
+│   └── requirements.txt
+│
+├── frontend/
+│   └── index.html
+│
+├── README.md
+└── .gitignore
+
+---
+
+## 🚀 Running the Project Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Razan243/NightShift_MD_MediCore_AI.git
+cd NightShift_MD_MediCore_AI
+
+### 2. Create a virtual environment
 
 ```bash
 python -m venv .venv
-.venv\\Scripts\\activate
-```
-
-3. Install dependencies:
-
-```bash
-pip install -r backend/requirements.txt
-```
-
-4. Start the application:
-
-```bash
-uvicorn backend.main:app --reload
-```
-
-5. Open `http://127.0.0.1:8000`.
-
-The first run downloads the FLAN-T5-small model from Hugging Face. CPU inference can take some time.
-
-> This is a decision-support prototype, not a medical diagnosis or treatment system.
