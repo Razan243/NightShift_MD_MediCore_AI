@@ -386,7 +386,7 @@ This project demonstrates practical applications of:
 
 ## 👩‍💻 Author
 
-**Razan Gewily**
+**Razan Gewaily**
 
 Computer Science Student — Artificial Intelligence
 
