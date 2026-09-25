@@ -305,3 +305,66 @@ Required sections include:
 - Clinical Summary
 
 The final report also stores the name of the original source document.
+
+---
+
+## 🧠 Example Workflow
+
+A medical PDF is uploaded to the application.
+
+The system then:
+
+1. Extracts the PDF content
+            ↓
+2. Identifies patient information
+            ↓
+3. Extracts medical records
+            ↓
+4. Organizes the patient's history
+            ↓
+5. Identifies critical emergency findings
+            ↓
+6. Determines the triage priority
+            ↓
+7. Generates a structured clinical summary
+            ↓
+8. Produces the final clinical report
+
+---
+
+## ⚠️ Safety Notice
+
+**NightShift MD / MediCore AI is a decision-support prototype and is not a medical diagnosis or treatment recommendation system.**
+
+The project is intended for educational and demonstration purposes and should not replace professional medical judgment.
+
+---
+
+## 🎓 Project Context
+
+This project demonstrates practical applications of:
+
+- Artificial Intelligence
+- Multi-Agent Systems
+- Natural Language Processing
+- Large Language Models
+- Clinical Information Extraction
+- Workflow Orchestration
+- AI-Assisted Decision Support
+
+---
+
+## 👩‍💻 Author
+
+**Razan Gewaily**
+
+Computer Science Student — Artificial Intelligence
+
+GitHub:
+https://github.com/Razan243
+
+---
+
+## ⭐ Project
+
+If you find this project useful or interesting, feel free to explore the repository and the implementation.
