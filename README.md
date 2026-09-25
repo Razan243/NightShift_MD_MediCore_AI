@@ -2,6 +2,8 @@
 
 > An AI-powered clinical decision-support prototype for analyzing medical reports and generating structured emergency triage insights.
 
+---
+
 ## 📌 Overview
 
 **NightShift MD / MediCore AI** is a Multi-Agent AI project designed to process medical reports and transform unstructured clinical information into a structured clinical assessment.
@@ -9,6 +11,22 @@
 The system accepts a medical report in PDF format and processes it through a sequence of specialized agents that extract patient information, medical records, patient history, emergency findings, and a clinical summary.
 
 The project demonstrates the practical application of **Artificial Intelligence, Multi-Agent Systems, Natural Language Processing, and workflow orchestration** in a clinical decision-support scenario.
+
+---
+
+## ✨ Features
+
+- 📄 Medical PDF report processing
+- 👤 Patient information extraction
+- 📋 Medical records extraction
+- 🕒 Patient history and timeline organization
+- 🚨 Emergency triage assessment
+- 🔎 Critical clinical findings detection
+- 🧠 AI-generated clinical summary
+- 📊 Structured final clinical report
+- ✅ Final report validation
+- 🌐 Web-based interface
+- 🤖 Multi-Agent workflow architecture
 
 ---
 
@@ -32,6 +50,7 @@ Triage Agent
 Summary Agent
      ↓
 Final Clinical Report
+```
 
 ---
 
@@ -129,10 +148,11 @@ Generates a structured clinical summary based on:
                          │ Final Clinical       │
                          │ Report               │
                          └──────────────────────┘
+```
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technology Stack
 
 ### Backend
 
@@ -175,6 +195,7 @@ NightShift_MD_MediCore_AI/
 │
 ├── README.md
 └── .gitignore
+```
 
 ---
 
@@ -192,11 +213,13 @@ Make sure you have:
 ```bash
 git clone https://github.com/Razan243/NightShift_MD_MediCore_AI.git
 cd NightShift_MD_MediCore_AI
+```
 
 ### 2. Create a Virtual Environment
 
 ```bash
 python -m venv .venv
+```
 
 ### 3. Activate the Virtual Environment
 
@@ -204,21 +227,25 @@ python -m venv .venv
 
 ```bash
 .venv\Scripts\activate
+```
 
 ### 4. Install Dependencies
 
 ```bash
 pip install -r backend/requirements.txt
+```
 
 ### 5. Run the Backend
 
 ```bash
 uvicorn backend.main:app --reload
+```
 
 The FastAPI backend will be available at:
 
 ```text
 http://127.0.0.1:8000
+```
 
 ### 6. Open the Frontend
 
@@ -226,6 +253,7 @@ Open:
 
 ```text
 frontend/index.html
+```
 
 The application allows the user to upload a medical PDF and generate a structured clinical assessment.
 
@@ -314,6 +342,7 @@ A medical PDF is uploaded to the application.
 
 The system then:
 
+```text
 1. Extracts the PDF content
             ↓
 2. Identifies patient information
@@ -329,6 +358,7 @@ The system then:
 7. Generates a structured clinical summary
             ↓
 8. Produces the final clinical report
+```
 
 ---
 
@@ -356,11 +386,12 @@ This project demonstrates practical applications of:
 
 ## 👩‍💻 Author
 
-**Razan Gewaily**
+**Razan Gewily**
 
 Computer Science Student — Artificial Intelligence
 
 GitHub:
+
 https://github.com/Razan243
 
 ---
