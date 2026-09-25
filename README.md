@@ -1,5 +1,7 @@
 # 🩺 NightShift MD — MediCore AI
 
+![NightShift MD Architecture](assets/nightshift-md-architecture.png)
+
 > An AI-powered clinical decision-support prototype for analyzing medical reports and generating structured emergency triage insights.
 
 ---
